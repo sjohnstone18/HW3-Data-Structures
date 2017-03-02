@@ -1,0 +1,4 @@
+﻿  readint.cpp
+c:\users\sjohn\desktop\hw3 data\readint.cpp(11): warning C4101: 'good': unreferenced local variable
+  HW3.vcxproj -> C:\Users\sjohn\Desktop\HW3 Data\HW3\Debug\HW3.exe
+  HW3.vcxproj -> C:\Users\sjohn\Desktop\HW3 Data\HW3\Debug\HW3.pdb (Full PDB)
