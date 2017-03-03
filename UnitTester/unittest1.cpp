@@ -1,23 +1,25 @@
-#include "stdafx.h"
-#include "CppUnitTest.h"
-#include <stdexcept> // remember to include in unittest1.cpp#include <fstream> // remember to include in unittest1.cpp
+#include <stdexcept> // remember to include in unittest1.cpp
+#include <fstream> // remember to include in unittest1.cpp
 #include <iostream>
+#include "CppUnitTest.h"
+#include <streambuf>
+#include <string>
 #include "readint.h"
 using namespace std;
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
 namespace UnitTester
-{		
+{
 	TEST_CLASS(UnitTest1)
 	{
 	public:
-		
+
 		TEST_METHOD(TestCase1) // Test case 1: invalid input
 		{
 			// Open a file stream to read the file zeroinput.txt (remember CS-172)
 			// Replace "UnitTester" with the name of your Native Unit Test project
-			ifstream ss("..\\UnitTester\\zeroinput.txt");
+			std::ifstream ss("C:\\Users\\sjohnstone18\\Documents\\GitHub\\HW3-Data-Structures\\UnitTester");
 			// Check if we opened the file stream successfully
 			if (ss.fail())
 				throw int(-1); // throw an integer with value -1

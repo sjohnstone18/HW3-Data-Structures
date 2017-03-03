@@ -1,2 +1,6 @@
-﻿  HW3.vcxproj -> C:\Users\sjohnstone18\Desktop\HW3-Data-Structures\Debug\HW3.exe
-  HW3.vcxproj -> C:\Users\sjohnstone18\Desktop\HW3-Data-Structures\Debug\HW3.pdb (Full PDB)
+﻿  readint.cpp
+c:\users\sjohnstone18\documents\github\hw3-data-structures\hw3\readint.cpp(11): warning C4101: 'good': unreferenced local variable
+  Main.cpp
+c:\users\sjohnstone18\documents\github\hw3-data-structures\hw3\main.cpp(19): warning C4101: 'e': unreferenced local variable
+  Generating Code...
+  HW3.vcxproj -> C:\Users\sjohnstone18\Documents\GitHub\HW3-Data-Structures\Debug\HW3.lib

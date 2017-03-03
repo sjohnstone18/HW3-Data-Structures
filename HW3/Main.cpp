@@ -4,6 +4,7 @@
 using namespace std;
 int main()
 {
+	
 	int low, high;
 	cout << "Enter the range of values to read.\n";
 	cout << "high: ";
